@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #head{
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    #inside{
+      position: absolute;
+      top: 0;
+      left: 50;  
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+    
+    #img1{
+      display: block;
+      height: 400px;
+      width: 100%;
+    }
+    h1{
+      text-align: center;
+    }
+    #read{
+      color: white;
+      background-color: gray;
+    }
+    h2{
+      text-align: center;
+    }
+    #column{
+      display: flex;
+      background-color: gray;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      margin: 50px;
+    }
+
+    #mid{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #left{
+      float: left;
+      background-color: blue;
+      width: 50%;
+      text-align: center;
+
+    }
+    #right{
+      float: right;
+      background-color: gray;
+      width: 50%;
+      text-align: center;
+    }
+    .img3{
+      padding: 5px;
+    }
+    #packgr{
+      width: 100%;
+      height: auto;
+    }
+    #move1{
+      width: 100px;
+      height: 100px;
+      transition: width 2s, height 2s, transform 2s;
+      width: 300px;
+      height: 300px;
+      transform: rotate(0deg);
+
+    }
+    #move1 :hover{  
+      width: 300px;
+      height: 300px;
+      transform: rotate(90deg);}
+    #move2{
+      transition: width 2s, height 2s, transform 2s;
+
+    }
+    #move2:hover{
+      transform: scale(2, 3);
+    }
+    
+    #move3{
+      transition: width 2s, height 2s, transform 2s;
+
+    }
+    #move3:hover{
+      transform: rotate(180deg);
+    }
+    #backblack{
+      text-align: center;
+      background-color: black;
+      color: aliceblue;
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+  <div id="haed">
+    <img src="4.jpg" id="img1">
+    <div id="inside">
+    <h1>Welcome to responsive Web</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo fuga illo, quas velit, consequatur, dolorem provident nostrum voluptatibus ullam rem quaerat vitae sed voluptatem at tempora odio pariatur libero aut!  </p>
+      <span id="read" style="text-align: center;"> read more </span>  
+    </div>
+  </div>
+  <div>
+    <h2>responsive web develoment</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eaque officia voluptatem, quo fugit qui repudiandae veniam facilis voluptatibus magni architecto, laborum iste numquam reprehenderit at quis exercitationem corporis molestias?</p>
+  </div id="backgr">
+    <div id="column">
+    <div id="move1"><img src="1.png" class="img3"><h4>Lorem, ipsum dolor.</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa error, optio esse officiis corrupti.</p></div>
+    <div id="move2"><img src="2.png" class="img3"><h4>Lorem, ipsum dolor.</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa error, optio esse officiis corrupti.</p></div>
+    <div id="move3"><img src="3.png" class="img3"><h4>Lorem, ipsum dolor.</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa error, optio esse officiis corrupti.</p></div>
+  </div>
+  <div id="mid">
+    <h3>develop your web site</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse nemo doloremque incidunt sed? Magni commodi itaque hic dolore accusantium.</p>
+
+  </div>
+  <div>
+    <div id="left"> countact us<br><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, incidunt?</p></div>
+    <div id="right"> about us <br><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, similique.</p></div>
+  </div>
+  <div id="backblack">Lorem ipsum dolor sit, <br>Lorem ipsum dolor sit.</div>
+  
+</body>
+</html>
